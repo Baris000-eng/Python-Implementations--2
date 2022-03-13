@@ -24,6 +24,7 @@ def absVal(t):
         t=-t
     return t
 
+#Selection sort algorithm in python
 def customSort(arr):
     for i in range(0,len(arr)):
         for j in range(0,len(arr)):
